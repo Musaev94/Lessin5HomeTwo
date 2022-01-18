@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D3DEE2ACFD860916B36C491 /* Pods_Lessin5HomeTwo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432E05B055C72B555EAC4EF6 /* Pods_Lessin5HomeTwo.framework */; };
 		CEACB2372789AF18002446E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACB2362789AF18002446E0 /* AppDelegate.swift */; };
 		CEACB2392789AF18002446E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACB2382789AF18002446E0 /* SceneDelegate.swift */; };
 		CEACB23B2789AF18002446E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACB23A2789AF18002446E0 /* ViewController.swift */; };
 		CEACB23E2789AF18002446E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEACB23C2789AF18002446E0 /* Main.storyboard */; };
 		CEACB2402789AF1A002446E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEACB23F2789AF1A002446E0 /* Assets.xcassets */; };
 		CEACB2432789AF1A002446E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEACB2412789AF1A002446E0 /* LaunchScreen.storyboard */; };
+		CEACB24B2789EE68002446E0 /* CustomVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACB24A2789EE68002446E0 /* CustomVIew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37B74635951CF3A19B4E595E /* Pods-Lessin5HomeTwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lessin5HomeTwo.debug.xcconfig"; path = "Target Support Files/Pods-Lessin5HomeTwo/Pods-Lessin5HomeTwo.debug.xcconfig"; sourceTree = "<group>"; };
+		432E05B055C72B555EAC4EF6 /* Pods_Lessin5HomeTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lessin5HomeTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B769C3C180C0BBE887E01DD /* Pods-Lessin5HomeTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lessin5HomeTwo.release.xcconfig"; path = "Target Support Files/Pods-Lessin5HomeTwo/Pods-Lessin5HomeTwo.release.xcconfig"; sourceTree = "<group>"; };
 		CEACB2332789AF18002446E0 /* Lessin5HomeTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lessin5HomeTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEACB2362789AF18002446E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEACB2382789AF18002446E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		CEACB23F2789AF1A002446E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEACB2422789AF1A002446E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEACB2442789AF1A002446E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEACB24A2789EE68002446E0 /* CustomVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVIew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D3DEE2ACFD860916B36C491 /* Pods_Lessin5HomeTwo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				CEACB2352789AF18002446E0 /* Lessin5HomeTwo */,
 				CEACB2342789AF18002446E0 /* Products */,
+				CFF70FEABE3649C5D7DCFB0C /* Pods */,
+				EB193925384E309D1F52D306 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +68,30 @@
 				CEACB2362789AF18002446E0 /* AppDelegate.swift */,
 				CEACB2382789AF18002446E0 /* SceneDelegate.swift */,
 				CEACB23A2789AF18002446E0 /* ViewController.swift */,
+				CEACB24A2789EE68002446E0 /* CustomVIew.swift */,
 				CEACB23C2789AF18002446E0 /* Main.storyboard */,
 				CEACB23F2789AF1A002446E0 /* Assets.xcassets */,
 				CEACB2412789AF1A002446E0 /* LaunchScreen.storyboard */,
 				CEACB2442789AF1A002446E0 /* Info.plist */,
 			);
 			path = Lessin5HomeTwo;
+			sourceTree = "<group>";
+		};
+		CFF70FEABE3649C5D7DCFB0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37B74635951CF3A19B4E595E /* Pods-Lessin5HomeTwo.debug.xcconfig */,
+				6B769C3C180C0BBE887E01DD /* Pods-Lessin5HomeTwo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB193925384E309D1F52D306 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				432E05B055C72B555EAC4EF6 /* Pods_Lessin5HomeTwo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEACB2472789AF1A002446E0 /* Build configuration list for PBXNativeTarget "Lessin5HomeTwo" */;
 			buildPhases = (
+				4FCFC9422C4891C843CD4428 /* [CP] Check Pods Manifest.lock */,
 				CEACB22F2789AF18002446E0 /* Sources */,
 				CEACB2302789AF18002446E0 /* Frameworks */,
 				CEACB2312789AF18002446E0 /* Resources */,
+				8575D809D721AFE2A6725508 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +162,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4FCFC9422C4891C843CD4428 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lessin5HomeTwo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8575D809D721AFE2A6725508 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lessin5HomeTwo/Pods-Lessin5HomeTwo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lessin5HomeTwo/Pods-Lessin5HomeTwo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lessin5HomeTwo/Pods-Lessin5HomeTwo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEACB22F2789AF18002446E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CEACB23B2789AF18002446E0 /* ViewController.swift in Sources */,
+				CEACB24B2789EE68002446E0 /* CustomVIew.swift in Sources */,
 				CEACB2372789AF18002446E0 /* AppDelegate.swift in Sources */,
 				CEACB2392789AF18002446E0 /* SceneDelegate.swift in Sources */,
 			);
@@ -284,6 +356,7 @@
 		};
 		CEACB2482789AF1A002446E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B74635951CF3A19B4E595E /* Pods-Lessin5HomeTwo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +384,7 @@
 		};
 		CEACB2492789AF1A002446E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B769C3C180C0BBE887E01DD /* Pods-Lessin5HomeTwo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
